@@ -1,3 +1,4 @@
+"use client";
 import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
@@ -10,7 +11,7 @@ const getPostContent = (slug: string) => {
     const content = fs.readFileSync(file, "utf8");
     const matterResult = matter(content);
     return matterResult;
-}
+};
 
 const getStaticParams = async () => {
     const posts = getPostMetadata();
