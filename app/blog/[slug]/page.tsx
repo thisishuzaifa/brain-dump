@@ -3,7 +3,6 @@ import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import getPostMetadata from '@/components/getPostMetadata';
 
-
 const getPostContent = (slug: string) => {
     const folder = "posts/";
     const file = `${folder}${slug}.md`;
@@ -14,10 +13,15 @@ const getPostContent = (slug: string) => {
 
 const getStaticParams = async () => {
     const posts = getPostMetadata();
-    return posts.map((post) => ({
-        slug: post.slug,
-      }));
+    const paths = posts.map((post) => ({
+      params: { slug: post.slug },
+    }));
+    return {
+      paths,
+      fallback: false,
     };
+  }
+    
 
 const postPage = (props: any) => {
     const slug = props.params.slug;

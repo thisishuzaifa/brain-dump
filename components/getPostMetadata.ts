@@ -23,4 +23,4 @@ const getPostMetadata = (): PostMetadata[] => {
     return posts;
   };
   
-  export default getPostMetadata;
+export default getPostMetadata;
