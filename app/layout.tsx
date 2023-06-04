@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="mx-auto max-w-4xl">
         <Navigation />
-        {children}
+          {children}
         <Footer />
         </div>
       </body>

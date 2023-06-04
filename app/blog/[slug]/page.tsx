@@ -1,4 +1,3 @@
-"use client";
 import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
@@ -29,7 +28,6 @@ const postPage = (props: any) => {
           <h1 className="text-2xl text-white-600 ">{post.data.title}</h1>
           <p className="text-white-400 mt-2">{post.data.date}</p>
         </div>
-  
         <article className="prose prose-zinc prose-lg dark:prose-invert">
           <Markdown>{post.content}</Markdown>
         </article>
