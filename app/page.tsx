@@ -21,7 +21,7 @@ export default function Home() {
         <br />
 
       </div>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="flex flex-col items-center justify-center m-4">
         {postPreviews}
       </div>
     </main>
