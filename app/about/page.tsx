@@ -28,10 +28,10 @@ export default function About(){
                 You can follow me on my social media accounts to learn more about me.
             </p>
             <br />
-            <div className="grid grid-cols-3 gap-6">
-            <Link className="text-blue-600 text-2xl "href="https://www.linkedin.com/muhammad-huzaifa-khalid"> LinkedIn </Link>
-            <Link className="text-red-600 text-2xl"href="https://www.instagram.com/huzaifaa_khalid/"> Instagram </Link>
-            <Link className="text-green-600 text-2xl"href="https://www.github.com/thisishuzaifa"> Github </Link>
+            <div className="flex flex-row justify-center space-x-4 items-center p-2 m-2">
+            <Link className="text-blue-600 text-xl "href="https://www.linkedin.com/muhammad-huzaifa-khalid">LinkedIn  </Link>
+            <Link className="text-red-600 text-xl"href="https://www.instagram.com/huzaifaa_khalid/"> Instagram </Link>
+            <Link className="text-green-600 text-xl"href="https://www.github.com/thisishuzaifa"> Github </Link>
             </div>    
 
         </div>
