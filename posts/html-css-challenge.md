@@ -6,7 +6,7 @@ date: "2023-06-09"
 
 # HTML CSS Challenge
 
-## Choose one of the following challenges:
+## Choose one of the following challenges - but try to do both!
 
 ### Challenge 1:Create a tribute page
 
