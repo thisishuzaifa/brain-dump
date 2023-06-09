@@ -31,7 +31,7 @@ export default function About(){
             <div className="flex flex-row justify-center space-x-4 items-center p-2 m-2">
             <Link className="text-blue-600 text-xl "href="https://www.linkedin.com/muhammad-huzaifa-khalid">LinkedIn  </Link>
             <Link className="text-red-600 text-xl"href="https://www.instagram.com/huzaifaa_khalid/"> Instagram </Link>
-            <Link className="text-green-600 text-xl"href="https://www.github.com/thisishuzaifa"> Github </Link>
+            <Link className="text-emerald-600 text-xl"href="https://www.github.com/thisishuzaifa"> Github </Link>
             </div>    
 
         </div>
@@ -44,7 +44,7 @@ export default function About(){
             <br />
             <div className="grid grid-cols-1 gap-6">
             <h4 className="text-2xl font-bold text-start"> Personal Machine </h4>
-            <ul className="text-green-600 text-l mt-4">
+            <ul className="text-emerald-500 text-l mt-4">
                 <li>Ryzen 7 5800x</li>
                 <li>32GB DDR4 3600Mhz</li>
                 <li>1TB NVME SSD</li>
@@ -53,7 +53,7 @@ export default function About(){
             </ul>
             
             <h4 className="text-2xl font-bold text-start"> Dev Environment </h4>
-            <ul className="text-green-600 text-l mt-4 ">
+            <ul className="text-emerald-500 text-l mt-4 ">
                 <li>WSL2</li>
                 <li>Ubuntu 20.04</li>
                 <li>VS Code</li>
