@@ -211,3 +211,40 @@ In the above example, the `@keyframes` rule defines two keyframes (0% and 100%),
 ## 4. Custom Fonts
 
 Using custom fonts can greatly enhance the typography of your web pages. CSS provides the `@font-face` rule to include custom fonts in your stylesheets. Here
+    
+    ```css
+    @font-face {
+      font-family: 'Open Sans';
+      src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    ```
+
+In the above example, the `@font-face` rule defines a custom font named `Open Sans` and specifies the location of the font file. The `body` element uses the custom font as its font family.
+
+## 5. CSS Frameworks
+
+CSS frameworks like Bootstrap and Tailwind CSS provide a set of pre-built components and styles that can be used to create responsive and visually appealing web pages. They can help you save time and effort when building websites.
+
+### Bootstrap Example
+
+```html
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+      <h1>Heading</h1>
+      <p>Paragraph</p>
+    </div>
+    <div class="col-md-6">
+      <img src="image.jpg" alt="Image">
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+```
+
+In the above example, the Bootstrap grid system is used to create a responsive layout. The `col-md-6` class specifies that the column should take up half of the screen width on medium-sized devices.
