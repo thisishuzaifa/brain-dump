@@ -24,7 +24,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center m-2">
         {postPreviews}
       </div>
-      <p className="text-center text-white-600 text-m mt-8"> Please note that the tools and technologies I will use are opinionated, you are free to choose any other alternatives you see fit or are comfortable with. As long as it gets the job done it really does not matter, barring crippling performance issues.</p>
+      <p className="text-white-600 text-m mt-8"> Please note that the tools and technologies I will use are opinionated, you are free to choose any other alternatives you see fit or are comfortable with. As long as it gets the job done it really does not matter, barring crippling performance issues.</p>
     </main>
     </>
   )

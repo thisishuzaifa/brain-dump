@@ -38,7 +38,7 @@ export default function About(){
 
         <h2 className="text-4xl font-bold text-center mt-12"> Personal Machine / Dev Environment </h2>
         
-            <p className="text-white-600 text-xl mt-4 text-center">
+            <p className="text-white-600 text-xl mt-4">
                 I know some people are curious about what I use to develop and what my personal machine is like.
             </p>
             <br />
