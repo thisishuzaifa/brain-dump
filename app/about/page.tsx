@@ -9,7 +9,7 @@ export default function About(){
             <h1 className="text-4xl font-bold text-center">About Me</h1>
             <p className="text-white-600 text-xl mt-4">
                  I am a software developer and an Information Technology
-                                analyst with a passion for
+                                specialist with a passion for
                                 engineering and system design. I studied Software
                                 Systems Development at the British Columbia Institute
                                 of Technology. I am currently working as IT Specialist
