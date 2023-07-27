@@ -11,7 +11,8 @@ export default function Home() {
 
   return (
 
-    <><main className="flex flex-col items-center justify-between p-24 mx-auto">
+    <>
+    <main className="flex flex-col items-center justify-between p-24 mx-auto">
       <div className="flex flex-col items-center justify-center m-4">
         <h1 className="p-2 text-5xl font-bold text-center">Welcome to the FSWD Course Site</h1>
         <br />

@@ -9,7 +9,7 @@ export default function About(){
             <h1 className="text-4xl font-bold text-center">About Me</h1>
             <p className="text-white-600 text-xl mt-4">
                  I am a software developer and an Information Technology
-                                analyst with a passion for
+                                specialist with a passion for
                                 engineering and system design. I studied Software
                                 Systems Development at the British Columbia Institute
                                 of Technology. I am currently working as IT Specialist
@@ -37,7 +37,7 @@ export default function About(){
 
         <h2 className="text-4xl font-bold text-center mt-12"> Personal Machine / Dev Environment </h2>
         
-            <p className="text-white-600 text-xl mt-4 text-center">
+            <p className="text-white-600 text-xl mt-4">
                 I know some people are curious about what I use to develop and what my personal machine is like.
             </p>
             <br />

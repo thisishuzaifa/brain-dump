@@ -16,6 +16,7 @@ export default function Navigation() {
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link className="mr-5 hover:text-green-500" href="/about">About</Link>
+            <Link className="mr-5 hover:text-green-500" href="/announcements">Announcements</Link>
           </nav>
         </div>
       </header>
