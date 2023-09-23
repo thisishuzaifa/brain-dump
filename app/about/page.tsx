@@ -8,7 +8,7 @@ export default function About(){
         <div className="flex flex-col justify-center items-center mt-4">
             <h1 className="text-4xl font-bold text-center">About Me</h1>
             <p className="text-white-600 text-xl mt-4">
-                 I am a software developer and an Information Technology
+                                I am a software developer and an Information Technology
                                 specialist with a passion for
                                 engineering and system design. I studied Software
                                 Systems Development at the British Columbia Institute
@@ -64,7 +64,7 @@ export default function About(){
 
             <h4 className="text-2xl font-bold text-center mt-12"> Other random things I use </h4>
             <ul className="text-emerald-500 text-l mt-4">
-                <li> M1 Macbook Pro  </li>
+                <li> M2 Macbook Pro  </li>
                 <li> Logitech C920 </li>
                 <li> WH-1000MX3 </li>
                 <li> Logitech MX Master 3 </li>
