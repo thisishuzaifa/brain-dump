@@ -21,11 +21,12 @@ export default function About(){
                 I help consult startups and do freelance work on the side. I recently
                 helped launched a startup called ScoreForOutcome which is a platform
                 that help mental health professionals track their clients progress.
+
              </p>
 
              <br />
              <p className="text-white-600 text-xl">
-                You can follow me on my social media accounts to learn more about me.
+                You can follow me on my social media accounts to learn more about me. Feel free to send me a message.
             </p>
             <br />
             <div className="flex flex-row justify-center space-x-4 items-center p-2 m-2">
