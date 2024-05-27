@@ -1,38 +1,28 @@
-import getPostMetadata from '@/components/getPostMetadata';
-import PostPreview from '@/components/PostPreview';
+import getPostMetadata from "@/components/getPostMetadata";
+import PostPreview from "@/components/PostPreview";
 
 export default function Home() {
-
   const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((post) => (
     <PostPreview key={post.slug} post={post} />
   ));
 
-
   return (
-
     <>
-    <main className="flex flex-col items-center justify-between p-24 mx-auto">
-      <div className="flex flex-col items-center justify-center m-4">
-        <h1 className="p-2 text-5xl font-bold text-center">Welcome to the FSWD Course Site</h1>
-        <br />
-        <p className="p-2 text-xl">
-        You will find all course related conent as it is made available to you.
-        We will cover different topics throughout the course and clear instructions will be given to you for assignments and other related projects.</p>
-        <br />
-      </div>
-      <br />
-      <div className="flex flex-col items-center justify-center m-2">
-        {postPreviews}
-      </div>
-      <p className="text-center text-white-600 text-m mt-8">
-      Please note that the tools and technologies I will use are opinionated,
-      you are free to choose any other alternatives you see fit or are comfortable with.
-      As long as it gets the job done it really does not matter, barring crippling performance issues.</p>
-    </main>
-    </>
-  )
-}
-      
-  
+      <main className="flex flex-col items-center justify-items-center p-8 md:p-24 mx-auto text-gray-100 min-h-screen">
+        <div className="flex flex-col mt-4 max-w-2xl text-center">
+          <h1 className="text-5xl font-bold">brain.dump</h1>
+          <p className="text-lg font-thin mt-6">
+            All content is served as markdown. Each item will cover a topic.I am
+            working on adding search functionality so you can easily browse
+            through the articles.
+          </p>
+        </div>
 
+        <div className="flex flex-col items-center justify-center mt-12 w-full max-w-4xl">
+          <ul className="w-full">{postPreviews}</ul>
+        </div>
+      </main>
+    </>
+  );
+}
