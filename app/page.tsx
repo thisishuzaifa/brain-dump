@@ -15,7 +15,7 @@ export default function Home() {
           <p className="text-lg font-thin mt-6">
             All content is served as markdown. Each item will cover a topic.I am
             working on adding search functionality so you can easily browse
-            through the articles.
+            through the articles. Everything I learn or re-learn goes here.
           </p>
         </div>
 

@@ -11,7 +11,7 @@ export default function Navigation() {
           className="flex items-center text-white hover:text-green-500 transition-colors duration-300 mb-4 md:mb-0"
         >
           <span className="ml-3 text-2xl font-semibold">
-            Huzzy's Brain Dump
+            huzzy&apos;s brain dump
           </span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-6">

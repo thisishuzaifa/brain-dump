@@ -2,11 +2,12 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <main className="flex flex-col items-center justify-between p-8 md:p-24 bg-transparent text-gray-100">
+    <main className="flex flex-col items-center justify-between p-8 md:p-24 bg-transparent">
       <div className="flex flex-col justify-center items-center mt-4 max-w-2xl">
-        <h1 className="text-3xl font-semibold font-sans text-center">
+        <h1 className="text-3xl font-light font-sans text-center">
           info.me
         </h1>
+        <article className="prose-md">
         <p className="text-lg font-thin mt-4">
           I am a software developer and an Information Technology specialist
           with a passion for engineering and system design. I studied Software
@@ -23,6 +24,7 @@ export default function About() {
           You can follow me on my social media accounts to learn more about me.
           Feel free to send me a message.
         </p>
+        </article>
         <div className="flex space-x-4 mt-6">
           <Link
             href="https://www.linkedin.com/muhammad-huzaifa-khalid"
@@ -46,7 +48,7 @@ export default function About() {
       </div>
 
       <div className="mt-12 max-w-2xl">
-        <h2 className="text-lg font-semibold">env.dev + tech i use</h2>
+        <h2 className="text-lg font-light">env.dev + tech i use</h2>
         <p className="text-lg font-thin mt-4">
           I develop primarily on a MacBook. My main tech stack includes Go,
           JavaScript/TypeScript, and C#. I use PostgreSQL for databases and
@@ -55,6 +57,7 @@ export default function About() {
           find interesting.
         </p>
       </div>
+    
     </main>
   );
 }
