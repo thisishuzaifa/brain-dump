@@ -28,19 +28,19 @@ export default function About() {
         <div className="flex space-x-4 mt-6">
           <Link
             href="https://www.linkedin.com/muhammad-huzaifa-khalid"
-            className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
+            className="text-white bg-blue-400 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
           >
             LinkedIn
           </Link>
           <Link
             href="https://www.github.com/thisishuzaifa"
-            className="text-white bg-gray-800 hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
+            className="text-white bg-gray-400 hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
           >
             Github
           </Link>
           <Link
             href="https://www.huzzy.dev"
-            className="text-white bg-rose-800 hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
+            className="text-white bg-rose-400 hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
           >
             Personal Site
           </Link>
