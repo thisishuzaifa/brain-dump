@@ -46,6 +46,7 @@ const counter = createCounter();
 console.log(counter()); // Output: 1
 console.log(counter()); // Output: 2
 console.log(counter()); // Output: 3
+
 ```
 
 ### Promises and Async/Await
@@ -67,10 +68,10 @@ let promise = new Promise((resolve, reject) => {
 promise.then((message) => {
     console.log(message); // Output: Success!
 });
-```
 
 `async` and `await` keywords make asynchronous code look more like synchronous/procedural code, making it easier to read and write.
 
+```
 **Example:**
 ```javascript
 async function fetchData() {
@@ -95,12 +96,12 @@ ES6 introduced a standardized module system to JavaScript. Modules allow you to 
 
 **Example:**
 ```javascript
-// file: math.js
+
 export function add(a, b) {
     return a + b;
 }
 
-// file: main.js
+
 import { add } from './math.js';
 console.log(add(2, 3)); // Output: 5
 ```
@@ -296,6 +297,7 @@ fs.readFile('message.txt', 'utf8', (err, data) => {
     if (err) throw err;
     console.log(data); // Output: Hello Node.js
 });
+
 ```
 
 

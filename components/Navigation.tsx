@@ -18,8 +18,8 @@ export default function Navigation() {
           <Link
             className="hover:text-green-400 transition-colors duration-300"
             href="/about"
-          >
-            About
+          > 
+            about
           </Link>
         </nav>
       </div>
