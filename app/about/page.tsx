@@ -4,34 +4,25 @@ export default function About() {
   return (
     <main className="flex flex-col items-center justify-between p-8 md:p-24 bg-transparent">
       <div className="flex flex-col justify-center items-center mt-4 max-w-2xl">
-        <h1 className="text-3xl font-light font-sans text-center">
-          info.me
-        </h1>
+        <h1 className="text-3xl font-light font-sans text-center">info.me</h1>
         <article className="prose-md">
-        <p className="text-lg font-thin mt-4">
-          I am a software developer and an Information Technology specialist
-          with a passion for engineering and system design. I studied Software
-          Systems Development at the British Columbia Institute of Technology
-          and Cognitive Science at SFU. I am currently working as IT Specialist
-          for Northeastern University.
-        </p>
-        <p className="text-lg font-thin mt-4">
-          I help consult startups and do freelance work on the side. I recently
-          helped launch a startup called ScoreForOutcome which is a platform
-          that helps mental health professionals track their clients progress.
-        </p>
-        <p className="text-lg font-thin mt-4">
-          You can follow me on my social media accounts to learn more about me.
-          Feel free to send me a message.
-        </p>
+          <p className="text-lg font-thin mt-4">
+            I can write semi-decent code and make nice looking applications.
+            These days I am leaning into tooling for various platforms and it is
+            also currently the focus of my work at NU as well.
+          </p>
+          <p className="text-lg font-thin mt-4">
+            I help consult startups and do freelance work on the side. I
+            recently helped launch a startup called ScoreForOutcome which is a
+            platform that helps mental health professionals track their clients
+            progress.
+          </p>
+          <p className="text-lg font-thin mt-4">
+            You can follow me on my social media accounts to learn more about
+            me. Feel free to send me a message.
+          </p>
         </article>
         <div className="flex space-x-4 mt-6">
-          <Link
-            href="https://www.linkedin.com/muhammad-huzaifa-khalid"
-            className="text-white bg-blue-400 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
-          >
-            LinkedIn
-          </Link>
           <Link
             href="https://www.github.com/thisishuzaifa"
             className="text-white bg-gray-400 hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-colors duration-300"
@@ -57,7 +48,6 @@ export default function About() {
           find interesting.
         </p>
       </div>
-    
     </main>
   );
 }
